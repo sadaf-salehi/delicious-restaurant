@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>Delicious Restaurant</h2>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contacts</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Delicious Restaurant</h1>
+        <p>Welcome to Delicious Restaurant! We serve fresh and delicious food for everyone.</p>
+        <button>Order Now</button>
+    </div>
+
+    <!-- Animated Burger Section -->
+<section class="burger-showcase">
+  <div class="burger-text">
+    <span class="food-category">OUR SIGNATURE BURGER</span>
+    <h2>Meet the Beef Burger</h2>
+    <p>Fresh ingredients. Perfect layers. One delicious burger.</p>
+    <button type="button" id="replayBurger">Watch Again</button>
+  </div>
+
+  <div class="burger-stage" id="burgerStage">
+    <div class="burger-layer bun-top">🍔</div>
+    <div class="burger-layer lettuce">🥬</div>
+    <div class="burger-layer tomato">🍅</div>
+    <div class="burger-layer cheese">🧀</div>
+    <div class="burger-layer beef">🥩</div>
+    <div class="burger-layer bun-bottom">🍞</div>
+  </div>
+</section>
+
+<h2>Our Menu</h2>
+
+<div class="menu-filters">
+    <button type="button" class="filter-btn active" data-filter="all">All</button>
+    <button type="button" class="filter-btn" data-filter="pizza">Pizza</button>
+    <button type="button" class="filter-btn" data-filter="burger">Burger</button>
+    <button type="button" class="filter-btn" data-filter="pasta">Pasta</button>
+    <button type="button" class="filter-btn" data-filter="chicken">Chicken</button>
+</div>
+
+
+
+
+<div class="food-container">
+
+    <div class="food-card" data-category="pizza">
+        <img src="image\pizza.jpg" alt="Fresh cheese pizza">
+    <div class="food-info">
+        <span class="food-category">BESTSELLER</span>
+
+        <h3>Classic Cheese Pizza</h3>
+
+        <p>
+            Freshly baked pizza with mozzarella,
+            tomato sauce and Italian herbs.
+        </p>
+
+        <div class="food-bottom">
+            <span class="price">$8.00</span>
+            <button type="button">Add to Order</button>
+        </div>
+    </div>
+        
+    </div>
+
+    <div class="food-card" data-category="burger">
+        <img src="image\burger.jpg" alt="Classic beef burger">
+        
+        <div class="food-info">
+            <span class="food-category">CUSTOMER PAVORITE</span>
+
+            <h3>Classic Beef Burger</h3>
+            <p>
+                Juicy beef, melted cheese, fresh lettuce
+                and our special house sauce.
+            </p>
+            <div class="food-bottom">
+                <span class="price">$6.00</span>
+                <button type="button">Add to Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="food-card" data-category="pasta">
+        <img src="image\pasta.jpg" alt="Pasta">
+
+        <div class="food-info">
+            <span class="food-category">CHEF'S SPECIAL</span>
+
+            <h3>Creamy Italian Pasta</h3>
+
+            <p>
+                Tender pasta with creamy sauce,
+                herbs and a delicious Italian flavor.
+            </p>
+
+            <div class="food-bottom">
+                <span class="price">$7.00</span>
+                <button type="button">Add to Order</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="food-card" data-category="chicken">
+        <img src="image\tender.jpg" alt="Crispy Chicken Tender">
+
+        <div class="food-info">
+            <span class="food-category">CHICKEN</span>
+            <h3>Chicken Tenders</h3>
+            <p>Golden crispy chicken strips served with our special dipping sauce.</p>
+
+            <div class="food-bottom">
+                <span class="price">$6.00</span>
+                <button type="button">Add to Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="food-card" data-category="chicken">
+        <img src="image\wings.jpg" alt="Crispy Chicken Wings">
+
+        <div class="food-info">
+            <span class="food-category">CHICKEN</span>
+            <h3>Chicken Wings</h3>
+            <p>Crispy chicken wings tossed in our delicious signature sauce.</p>
+
+            <div class="food-bottom">
+                <span class="price">$32.0</span>
+                <button type="button">Add to Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="food-card" data-category="chicken">
+        <img src="image\grilled-chicken.jpg" alt="Grilled Chicken">
+
+        <div class="food-info">
+            <span class="food-category">CHICKEN</span>
+            <h3>Grilled Chicken</h3>
+            <p>Tender grillde chicken served with herbs and delicious seasoning.</p>
+
+            <div class="food-bottom">
+                <span class="price">$30.0</span>
+                <button type="button">Add to Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="food-card" data-category="burger">
+        <img src="image\chicken-burger.jpg" alt="Chicken Burger">
+
+        <div class="food-info">
+            <span class="food-category">CHICKEN</span>
+            <h3>Chikcken Burger</h3>
+            <p>Juicy chikcen burger with fresh lettuce and our special sauce.</p>
+
+            <div class="food-bottom">
+                <span class="price">$20.0</span>
+                <button type="button">Add to Order</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<section class="about">
+
+    <div class="about-text">
+        <h2>About Us</h2>
+
+        <p>
+            At Delicious Restaurant, we believe that great food
+            brings people together. We prepare fresh and delicious
+            meals using quality ingredients and special recipes.
+        </p>
+
+        <p>
+            Our goal is to provide our guests with a warm atmosphere,
+            friendly service, and an unforgettable dining experience.
+        </p>
+    </div>
+
+</section>
+
+<div class="Contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +93700000000</p>
+    <p>Address: Kabul,Afghanistan</p>
+</div>
+
+
+
+<button>Order Now</button>
+
+<footer class="footer">
+
+    <h2>Delicious Restaurant</h2>
+
+    <p>Fresh food • Great taste • Happy moments</p>
+
+    <p>Phone: +93 700 000 000</p>
+
+    <p>Address: Kabul, Afghanistan</p>
+
+    <p>Follow us: Facebook | Instagram | Whatsapp</p>
+
+    <p class="copyright">
+        © 2026 Delicious Restaurant. All rights reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
